@@ -24,6 +24,6 @@ jobs:
           NOTIFIER_TYPE: ${{ secrets.NOTIFIER_TYPE }} 
           EMAIL_CONFIG: ${{ secrets.EMAIL_CONFIG }}
           WECHAT_ROBOT_URL: ${{ secrets.WECHAT_ROBOT_URL }}
-          ACCOUNTS: ${{ secrets.ACCOUNTS }}
+          # ACCOUNTS: ${{ secrets.ACCOUNTS }}
         run: |
           python ./main.py
